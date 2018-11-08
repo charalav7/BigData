@@ -36,10 +36,10 @@ object TwitterSpark {
     ssc.checkpoint(".")
 
     // define connection properties with Twitter
-    val consumerKey = "JeQplfsqikXm8awTkHx3e86GD"
-    val consumerSecret = "1InLmnzSZJWSJFfaNm0JumLi9F3MHQ3jtFSi1peV0pMSD6Mei2"
-    val accessToken = "852287070773137413-5rn72ZlsKzGNiNedIFJXRBhKrOUrI8i"
-    val accessTokenSecret = "qMpMkhimR9bHsAagemXchUJbN0lC0drgn636SqF8vO5Kg"
+    val consumerKey = "<>"
+    val consumerSecret = "<>"
+    val accessToken = "<>"
+    val accessTokenSecret = "<>"
 
     System.setProperty("twitter4j.oauth.consumerKey", consumerKey)
     System.setProperty("twitter4j.oauth.consumerSecret", consumerSecret)
